@@ -1,0 +1,64 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+* {
+  color: rgb(10, 10, 39);
+}
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1 {
+  color: rgb(23, 23, 212);
+  margin-bottom: 25px;
+}
+h2 {
+  color: rgb(4, 4, 17);
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: normal;
+}
+h3 {
+  color: rgb(23, 23, 212);
+  font-size: 20px;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: rgb(23, 23, 212);
+}
+.contacts {
+  margin-bottom: 20px;
+}
+.contact {
+  display: flex;
+}
+.contact__type {
+  min-width: 140px;
+}
+.education__place,
+.work__experience__place {
+  display: flex;
+  margin-bottom: 20px;
+}
+.education__date,
+.work__experience__date {
+  min-width: 230px;
+  margin-right: 25px;
+}
+.education__name,
+.work__experience__name {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media (max-width: 575px) {
+  .education__place,
+  .work__experience__place {
+    display: block;
+  }
+  .education__date,
+  .work__experience__date {
+    margin-bottom: 20px;
+  }
+}
